@@ -10,33 +10,83 @@
 </head>
 
 <body>
-    main>section.big_main>(div.left>(div.start>img[src=assets/images/tekhub_portal_logo.png]+img+p)+(div>p{Advancing
-    Technology, Innovation, and Digital Excellence in Africa.}
+    <main>
+        <section class="big_main">
 
-    )+(div.start2>h1{Examination
-    Portal}+p{Computer-based tests for TEKHUB training programmes.
+            <div class="left">
+                <div class="start">
+                    <img src="assets/images/tekhub_portal_logo.png" alt="TEKHUB Portal logo">
+                    <img src="" alt="">
+                    <p></p>
+                </div>
 
-    })+(div.start3>span>img[src=<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-        class="lucide lucide-file-text preview-icon">
-        <path
-            d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" />
-        <path d="M14 2v5a1 1 0 0 0 1 1h5" />
-        <path d="M10 9H8" />
-        <path d="M16 13H8" />
-        <path d="M16 17H8" />
-    </svg>]+p{Keep your examination card with your PIN and serial number
-    nearby.})*3+(img[src=assets/images/tekhub_portal_building.png]))+(div.right>(p{Candidate
-    login}+h3{Sign in to your examination}+p{Enter the PIN and serial number printed on your examination
-    card.})+(form>(label{pin}+label{
-    10 digits}+input[placeholder=img+p+img])+(label{Serial number})+label{
-    7 digits}+input[placeholder=img+p])+(button>p{Sign in}+div>img[src=<svg xmlns="http://www.w3.org/2000/svg"
-        width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-right preview-icon">
-        <path d="M18 8L22 12L18 16" />
-        <path d="M2 12H22" />
-    </svg>])+hr+(footer.end>p{Copyright © 2026 TEKHUB}))
+                <div>
+                    <p>Advancing Technology, Innovation, and Digital Excellence in Africa.</p>
+                </div>
 
+                <div class="start2">
+                    <h1>Examination Portal</h1>
+                    <p>Computer-based tests for TEKHUB training programmes.</p>
+                </div>
+
+                <!-- The *3 repeats this block three times. Change the text in each copy. -->
+                <div class="start3">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-file-text preview-icon">
+                            <path
+                                d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" />
+                            <path d="M14 2v5a1 1 0 0 0 1 1h5" />
+                            <path d="M10 9H8" />
+                            <path d="M16 13H8" />
+                            <path d="M16 17H8" />
+                        </svg>
+                    </span>
+                    <p>Keep your examination card with your PIN and serial number nearby.</p>
+                </div>
+                <div class="start3">...</div>
+                <div class="start3">...</div>
+
+                <img src="assets/images/tekhub_portal_building.png" alt="TEKHUB building">
+            </div>
+
+            <div class="right">
+                <p>Candidate login</p>
+                <h3>Sign in to your examination</h3>
+                <p>Enter the PIN and serial number printed on your examination card.</p>
+
+                <form>
+                    <label for="pin">PIN</label>
+                    <label for="pin">10 digits</label>
+                    <input type="text" id="pin" name="pin" placeholder="Enter PIN" maxlength="10">
+
+                    <label for="serial">Serial number</label>
+                    <label for="serial">7 digits</label>
+                    <input type="text" id="serial" name="serial" placeholder="Enter serial number" maxlength="7">
+
+                    <button type="submit">
+                        <p>Sign in</p>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-move-right preview-icon">
+                                <path d="M18 8L22 12L18 16" />
+                                <path d="M2 12H22" />
+                            </svg>
+                        </div>
+                    </button>
+                </form>
+
+                <hr>
+
+                <footer class="end">
+                    <p>Copyright © 2026 TEKHUB</p>
+                </footer>
+            </div>
+
+        </section>
+    </main>
 
 
 
